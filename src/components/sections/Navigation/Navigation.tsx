@@ -26,7 +26,7 @@ const Logo: React.FC<{ redirectUrl?: string; logo: MediaType }> = ({
       data={logo}
       alt={logo.title ?? 'Logo'}
       priority
-      fallbackSrc="/logo.webp"
+      fallbackSrc="/london-scrap-yard-Logo.svg"
       rounded="none"
     />
   </Link>

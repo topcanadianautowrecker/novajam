@@ -55,7 +55,7 @@ export const Footer: React.FC<Props> = ({ data }) => {
                 className="dark:invert dark:filter dark:brightness-0"
                 data={logo}
                 alt={logo.title ?? 'Logo'}
-                fallbackSrc="/logo.webp"
+                fallbackSrc="/london-scrap-yard-Logo.svg"
                 rounded="none"
               />
             </Link>
